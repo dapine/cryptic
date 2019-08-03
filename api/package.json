@@ -4,13 +4,15 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/test"
   },
   "author": "Breno Pinheiro",
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.8.1",
+    "chai": "^4.2.0",
     "graphql": "^14.4.2",
+    "mocha": "^6.2.0",
     "mongoose": "^5.6.7"
   }
 }

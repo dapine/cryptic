@@ -68,3 +68,4 @@ function mongooseCurrency(name) {
 }
 
 module.exports.mongooseCurrency = mongooseCurrency
+module.exports.Currency = mongooseCurrency()

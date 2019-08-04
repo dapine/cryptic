@@ -35,5 +35,4 @@ fs.createReadStream(process.argv[2])
     })
     .on('end', () => {
         console.log('All currency log stored')
-        process.exit()
     })

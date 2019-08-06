@@ -9,6 +9,7 @@ scalar Date
 type Query {
     info: String!
     currencies: [Currency]
+    timeRange(start: String, end: String): [Currency]
 }
 type Currency {
     id: ID!
@@ -30,6 +31,8 @@ const resolvers = {
     Query: {
         info: () => 'Cryptic API',
         currencies: () => Currency.find(),
+        timeRange: (parent, args) => Currency.find({'date': { $gte: new Date(args.start),
+                                                              $lte: new Date(args.end) }}),
     }
 }
 

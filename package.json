@@ -1,0 +1,20 @@
+{
+  "name": "cryptic",
+  "version": "1.0.0",
+  "description": "Cryptocurrency data API and dashboard",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startApi": "cd api && npm start",
+    "startWeb": "cd web && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dapine/cryptic.git"
+  },
+  "author": "Breno Pinheiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dapine/cryptic/issues"
+  },
+  "homepage": "https://github.com/dapine/cryptic#readme"
+}

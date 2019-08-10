@@ -8,7 +8,7 @@
     "start": "node src/index.js"
   },
   "author": "Breno Pinheiro",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "apollo-server": "^2.8.1",
     "chai": "^4.2.0",

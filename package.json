@@ -12,7 +12,7 @@
     "url": "git+https://github.com/dapine/cryptic.git"
   },
   "author": "Breno Pinheiro",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dapine/cryptic/issues"
   },
